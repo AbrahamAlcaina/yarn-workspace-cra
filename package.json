@@ -1,7 +1,15 @@
 {
+  "scripts": {
+    "start": "lerna run --parallel start",
+    "build": "lerna --stream --concurrency 1 run build"
+  },
   "private": true,
   "workspaces": [
-  	"admin",
-  	"common"
-  ]
+    "common",
+    "admin"
+  ],
+  "dependencies": {
+    "lerna": "^3.4.3"
+  },
+  "name": "yarn-workspace-cra"
 }

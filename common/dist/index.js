@@ -3,6 +3,7 @@ import _createClass from "/Users/jzhao/dev/yarn-workspace-cra/node_modules/@babe
 import _possibleConstructorReturn from "/Users/jzhao/dev/yarn-workspace-cra/node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn";
 import _getPrototypeOf from "/Users/jzhao/dev/yarn-workspace-cra/node_modules/@babel/runtime/helpers/esm/getPrototypeOf";
 import _inherits from "/Users/jzhao/dev/yarn-workspace-cra/node_modules/@babel/runtime/helpers/esm/inherits";
+var _jsxFileName = "/Users/jzhao/dev/yarn-workspace-cra/common/src/index.js";
 import React from 'react';
 
 var Test =
@@ -19,7 +20,13 @@ function (_React$Component) {
   _createClass(Test, [{
     key: "render",
     value: function render() {
-      return React.createElement("h1", null, " hellooooo ");
+      return React.createElement("h1", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 6
+        },
+        __self: this
+      }, " hellooooo ");
     }
   }]);
 
@@ -27,3 +34,4 @@ function (_React$Component) {
 }(React.Component);
 
 export { Test as default };
+//# sourceMappingURL=index.js.map
