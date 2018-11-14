@@ -1,3 +1,6 @@
+**Please note that the babel config in common/ isn't quiet right.  Please use your own config instead of babel-preset-react-app, or enable absoluteRuntime config: https://github.com/facebook/create-react-app/issues/5443#issuecomment-430188464 **
+
+
 # yarn-workspace-cra
 demo of setting up a cra app within a yarn workspace
 
